@@ -1,0 +1,135 @@
+*{
+    color:white;
+    font-family: Helvetica;
+}
+
+body{
+    background-color: black
+
+    
+}
+
+h2 {
+    color: white;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-top: 24px;
+    padding-bottom: 14px;
+    margin: auto;
+}
+
+div {
+padding-left: 14px;
+padding-right: 14px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+
+.thumbnail {
+    max-width: 140px; 
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+.trendingPreview > .thumbnail {
+   object-fit: cover;
+   width: 140px;
+   height: 80px;
+   
+}
+
+.logo {
+    width: 89px;
+}
+
+.profile {
+    width: 44px;
+    border-radius: 10%;
+    
+}
+
+header {
+    background-color: black;
+    position: relative;
+    background: linear-gradient(to top,  rgba(0,0,0,1), transparent)
+                , url(./image/hell.jpg);
+    
+    height: 65vh;
+    width:100%;
+    background-size: cover;
+    background-position: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 2s ease-in-out;
+}
+
+header:hover {
+    background-size: 130%;
+}
+
+
+
+nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+
+.item-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    z-index: 10;
+}
+
+.item-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    color: white;
+    padding: 40px;
+    z-index: 10;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.7);
+    
+}
+
+.item-2 h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.item-2 p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.buttons-container {
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+}
+
+
+button {
+    font-size: 1em;
+    width: 120px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(52, 52, 52, 0.5);
+    border: none;
+    border-radius: 5%;
+    selr
+}
